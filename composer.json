@@ -1,0 +1,20 @@
+{
+  "name": "caasdata/tars-report",
+  "description": "tars进行keep-alive上报的模块",
+  "version":"0.1.1",
+  "authors": [
+    {
+      "name": "Chen Liang",
+      "email": "liangchen@yuewen.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tars\\report\\": "src/"
+    }
+  }
+}
